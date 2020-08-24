@@ -1,2 +1,92 @@
- 
- 
+* { box-sizing: border-box; }
+
+
+body { background-color: #FFFFF0;
+font-size: 20px;
+color: #800080; 
+margin: 0;
+padding: 0;}
+
+h1 { text-align: center; 
+font-size: 175%;}
+
+.container { 
+	background-color: #008B8B;
+	overflow: auto;
+	padding: 10px;
+	margin: 10px;
+
+	 }
+.row { width: 100%; 
+	margin-right: auto;
+	margin-left: auto;
+}	 
+
+section {
+	margin: 20px;
+	padding: 40px;
+	border: 1px solid black;
+	float: left;
+    width: 28%;
+    position: relative;
+
+ }
+
+ section div  { font-size: 125%;
+ 	border: 1px solid black;
+  }
+ .pulao{
+ 	background-color: #9ACD32;
+ 	position: absolute;
+ 	top: 0px;
+ 	right: 10px;
+ }
+
+ .paneer{
+ 	background-color: #9ACD32;
+ 	position: absolute;
+ 	top: 0px;
+ 	right: 10px;
+ }
+
+.pav {
+ 	background-color: #9ACD32;
+ 	position: absolute;
+ 	top: 0px;
+ 	right: 10px;
+
+ }
+
+
+ footer { clear: left; }
+
+
+
+.container1{ background-color: #EE82EE;
+
+ }
+.container2 { background-color: #FA8072;
+
+}
+
+.container3 { background-color: #FFFF00;}
+
+@media (min-width: 992px;) {
+	section { width: 28%%; }
+
+}
+
+@media ( min-width: 768px) and (max-width: 991px){
+	.container1 { width: 40%;   }
+
+	.container2 {width: 40% }
+
+	.container3 { width: 100%;   }
+
+}
+
+@media (max-width: 767px) {
+	section { width: 100% }
+}
+
+
