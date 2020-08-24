@@ -3,6 +3,7 @@
 
 body { background-color: #FFFFF0;
 font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
 color: #800080; 
 margin: 0;
 padding: 0;}
@@ -16,11 +17,7 @@ font-size: 175%;}
 	padding: 10px;
 	margin: 10px;
 
-	 }
-.row { width: 100%; 
-	margin-right: auto;
-	margin-left: auto;
-}	 
+	 }	 
 
 section {
 	margin: 20px;
@@ -32,9 +29,19 @@ section {
 
  }
 
+.container1{ background-color: #EE82EE;
+
+ }
+.container2 { background-color: #FA8072;
+
+}
+
+.container3 { background-color: #FFFF00;}
+
  section div  { font-size: 125%;
  	border: 1px solid black;
   }
+
  .pulao{
  	background-color: #9ACD32;
  	position: absolute;
@@ -58,18 +65,6 @@ section {
  }
 
 
- footer { clear: left; }
-
-
-
-.container1{ background-color: #EE82EE;
-
- }
-.container2 { background-color: #FA8072;
-
-}
-
-.container3 { background-color: #FFFF00;}
 
 @media (min-width: 992px;) {
 	section { width: 28%%; }
