@@ -17,6 +17,7 @@ font-size: 175%;}
 	padding: 10px;
 	margin: 10px;
 
+
 	 }	 
 
 section {
@@ -26,6 +27,7 @@ section {
 	float: left;
     width: 28%;
     position: relative;
+    
 
  }
 
@@ -67,7 +69,7 @@ section {
 
 
 @media (min-width: 992px;) {
-	section { width: 28%%; }
+	section { width: 28%; }
 
 }
 
