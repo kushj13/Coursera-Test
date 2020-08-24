@@ -1,0 +1,36 @@
+* { box-sizing: border-box; }
+
+
+body { background-color: #FFFFF0;
+font-size: 15px;
+color: #800080; }
+
+h1 { text-align: center; }
+
+section {
+	margin: 20px;
+	padding: 20px;
+	border: 5px solid black;
+	float: left;
+    width: 30%;
+
+ }
+
+ footer { clear: left; }
+
+.container { 
+	background-color: #008B8B;
+	overflow: auto;
+	
+
+	 }
+
+.container1{ background-color: #EE82EE;
+
+ }
+.container2 { background-color: #FA8072;
+
+}
+
+.container3 { background-color: #FFFF00;}
+
